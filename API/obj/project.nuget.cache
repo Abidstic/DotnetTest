@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "avp95aNQLOJqpIv4yVqUWi8pTQ14SpaRmBsszhB0G1DUR2uXwSMhNF36Vo8EhfvoLsp7ZlDmS2TgQ1wJ1O48nw==",
+  "dgSpecHash": "Qoa5wroKmao7IpVgM6yENQ3W9EJCVchfrOLyDNrXZj2xgr8bKn6hi/dTNp8kRPCv8X3peGqy8gSMEtzr1sotTA==",
   "success": true,
   "projectFilePath": "/home/abidstic/Documents/Dotnet/Demo/API/API.csproj",
   "expectedPackageFiles": [
     "/home/abidstic/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/home/abidstic/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.13/microsoft.aspnetcore.authentication.jwtbearer.6.0.13.nupkg.sha512",
     "/home/abidstic/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/home/abidstic/.nuget/packages/microsoft.data.sqlite.core/6.0.13/microsoft.data.sqlite.core.6.0.13.nupkg.sha512",
     "/home/abidstic/.nuget/packages/microsoft.entityframeworkcore/6.0.13/microsoft.entityframeworkcore.6.0.13.nupkg.sha512",
@@ -27,6 +28,8 @@
     "/home/abidstic/.nuget/packages/microsoft.identitymodel.abstractions/6.27.0/microsoft.identitymodel.abstractions.6.27.0.nupkg.sha512",
     "/home/abidstic/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.27.0/microsoft.identitymodel.jsonwebtokens.6.27.0.nupkg.sha512",
     "/home/abidstic/.nuget/packages/microsoft.identitymodel.logging/6.27.0/microsoft.identitymodel.logging.6.27.0.nupkg.sha512",
+    "/home/abidstic/.nuget/packages/microsoft.identitymodel.protocols/6.10.0/microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "/home/abidstic/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.10.0/microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
     "/home/abidstic/.nuget/packages/microsoft.identitymodel.tokens/6.27.0/microsoft.identitymodel.tokens.6.27.0.nupkg.sha512",
     "/home/abidstic/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/home/abidstic/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",

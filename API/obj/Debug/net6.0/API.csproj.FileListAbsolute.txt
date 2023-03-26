@@ -60,3 +60,6 @@
 /home/abidstic/Documents/Dotnet/Demo/API/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
 /home/abidstic/Documents/Dotnet/Demo/API/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
 /home/abidstic/Documents/Dotnet/Demo/API/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/home/abidstic/Documents/Dotnet/Demo/API/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/abidstic/Documents/Dotnet/Demo/API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/home/abidstic/Documents/Dotnet/Demo/API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
