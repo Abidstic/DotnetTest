@@ -25,8 +25,7 @@ export class AppComponent implements OnInit {
       next: response =>this.users=response,
       error: error => console.log(error),
       complete: ()=>console.log('Request is completed')
-    })
-    
+    }); 
   }
   setCurrentUser(){
     const userString= localStorage.getItem('user');
