@@ -11,6 +11,7 @@ export class AccountService {
   private currentUserSource = new BehaviorSubject<User | null>(null);
   currentUser$= this.currentUserSource.asObservable(); 
   constructor(private http:HttpClient) { }
+ 
 
   login(model:any){
     return this.http.post<User>(this.baseUrl+'account/login',model).pipe(
@@ -25,6 +26,8 @@ export class AccountService {
   }
   setCurrentUser(user: User){
     this.currentUserSource.next(user);
+    
+  
   }
 
   logout(){

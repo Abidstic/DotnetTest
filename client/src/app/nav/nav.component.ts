@@ -10,11 +10,18 @@ import { AccountService } from '../_services/account.service';
 })
 export class NavComponent implements OnInit {
   model:any={};
+  myObjectString:string |null= localStorage.getItem('user');
+  myObject:any;
+  
   
 
   constructor(public accountService:AccountService) { }
 
   ngOnInit(): void {
+    if(this.myObjectString){
+      this.myObject=JSON.parse(this.myObjectString);
+    }
+    
   }
  
   login()
