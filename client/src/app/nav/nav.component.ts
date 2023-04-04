@@ -15,7 +15,7 @@ export class NavComponent implements OnInit {
   
   
 
-  constructor(public accountService:AccountService) { }
+  constructor(public accountService:AccountService) {}
 
   ngOnInit(): void {
     if(this.myObjectString){
@@ -29,14 +29,13 @@ export class NavComponent implements OnInit {
     this.accountService.login(this.model).subscribe({
       next:response=>{
         console.log(response);
-        
       },
       error:error => console.log(error)
     })
   }
   logout(){
     this.accountService.logout();
-    
+    this.myObject=null;
   }
 
 
