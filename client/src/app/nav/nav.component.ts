@@ -11,7 +11,7 @@ import { AccountService } from '../_services/account.service';
 export class NavComponent implements OnInit {
   model:any={};
  
-  currentUser: User | null=null;
+  currentUser:any;
   
   
 
