@@ -10,17 +10,21 @@ import { AccountService } from '../_services/account.service';
 })
 export class NavComponent implements OnInit {
   model:any={};
-  myObjectString:string |null= localStorage.getItem('user');
-  myObject:any;
+ 
+  currentUser: User | null=null;
   
   
 
   constructor(public accountService:AccountService) {}
 
   ngOnInit(): void {
-    if(this.myObjectString){
-      this.myObject=JSON.parse(this.myObjectString);
-    }
+    
+    this.accountService.currentUser$.subscribe((user: User | null) => {
+      if(user)
+      {
+        this.currentUser = user;
+      } 
+    });
     
   }
  
@@ -35,7 +39,7 @@ export class NavComponent implements OnInit {
   }
   logout(){
     this.accountService.logout();
-    this.myObject=null;
+    this.currentUser=null;
   }
 
 
