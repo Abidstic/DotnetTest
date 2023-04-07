@@ -16,7 +16,6 @@ export class HomeComponent implements OnInit {
     this.getUsers();
   }
   registerToggle(){
-
     this.registerMode= !this.registerMode;
   }
   getUsers(){
