@@ -10,11 +10,22 @@ import { AccountService } from '../_services/account.service';
 })
 export class NavComponent implements OnInit {
   model:any={};
+ 
+  currentUser:any;
+  
   
 
-  constructor(public accountService:AccountService) { }
+  constructor(public accountService:AccountService) {}
 
   ngOnInit(): void {
+    
+    this.accountService.currentUser$.subscribe((user: User | null) => {
+      if(user)
+      {
+        this.currentUser = user;
+      } 
+    });
+    
   }
  
   login()
@@ -22,14 +33,13 @@ export class NavComponent implements OnInit {
     this.accountService.login(this.model).subscribe({
       next:response=>{
         console.log(response);
-        
       },
       error:error => console.log(error)
     })
   }
   logout(){
     this.accountService.logout();
-    
+    this.currentUser=null;
   }
 
 

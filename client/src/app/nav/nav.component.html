@@ -14,7 +14,7 @@
         </ul>
 
         <div  class="dropdown" *ngIf="accountService.currentUser$ |async" dropdown >
-          <a  class="dropdown-toggle text-light text-decoration-none" dropdownToggle>Welcome User</a>
+          <a *ngIf="currentUser.username" [style.text-transform]="'uppercase'" class="dropdown-toggle text-light text-decoration-none" dropdownToggle>Welcome {{currentUser.username}}</a>
           <div class="dropdown-menu mt-2" *dropdownMenu >
             <a  class="dropdown-item">Edit profile</a>
             <a  class="dropdown-item"(click)="logout()">Logout</a>
