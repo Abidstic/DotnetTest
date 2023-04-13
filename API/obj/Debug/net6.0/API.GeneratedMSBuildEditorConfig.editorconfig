@@ -8,9 +8,17 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = API
 build_property.RootNamespace = API
+<<<<<<< HEAD
 build_property.ProjectDir = c:\Users\abid\Documents\DemoTest\DotnetTest\API\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = c:\Users\abid\Documents\DemoTest\DotnetTest\API
+=======
+build_property.ProjectDir = /home/abidstic/Documents/Dotnet/Demo/API/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/abidstic/Documents/Dotnet/Demo/API
+>>>>>>> f974f13736ccb0adb96d485d34d6cf02994b52e5
 build_property._RazorSourceGeneratorDebug = 
